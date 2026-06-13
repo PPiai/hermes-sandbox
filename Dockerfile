@@ -12,8 +12,7 @@ COPY requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt
 
 WORKDIR /app
-COPY app.py /app/app.py
-
+COPY . /app
 # Usuario sem privilegios; o codigo do agente roda como ele
 RUN useradd -m -u 10001 sandbox \
     && mkdir -p /work && chown sandbox:sandbox /work
