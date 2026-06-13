@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+requests
+httpx
+pandas
+numpy
+openpyxl
+python-docx
+matplotlib
+pillow
+psycopg2-binary
+sqlalchemy
+beautifulsoup4
+lxml
