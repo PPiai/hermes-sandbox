@@ -12,3 +12,4 @@ psycopg2-binary
 sqlalchemy
 beautifulsoup4
 lxml
+edge-tts
